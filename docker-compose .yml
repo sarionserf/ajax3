@@ -1,0 +1,29 @@
+version: '3.3'
+services:
+  php:
+    image: php:8-apache
+    volumes:
+      - D:\Escritorio\2nDAW\M6\UF2\Activitat3:/var/www/html
+    expose:
+      - 80
+    ports:
+      - 80:80
+    links:
+      - mysql
+
+  mysql:    
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: daw_db
+      MYSQL_USER: hector
+      MYSQL_PASSWORD: 123456
+    ports:
+      - 9999:3306
+      
+  phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - 8090:80

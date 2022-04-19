@@ -1,0 +1,107 @@
+* {box-sizing: border-box}
+#formContainer{
+    /*Per centrar el contenidor a la pàgina
+    marquem l'amplada del contenidor*/
+    width: 600px;
+    /*Per centrar afegim un margin:
+    0 pixels top/bottom,
+    auto a l'left/right*/
+    margin:0 auto;
+}
+
+form{
+    background-image: 
+        url("../img/Textura_petit.png");
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #f6f2f2;
+}
+
+form fieldset{
+    background-color: rgba(255, 255, 255, .25);
+    padding: 40px;
+    border:double 6px;
+}
+
+form legend{
+    font-size: 1.5em;
+    font-weight: bold;
+    border:double 6px aliceblue;
+    background-image: 
+    url("../img/Textura_petit_negatiu.png");
+    color: rgb(19, 27, 70); 
+}
+
+form legend div{
+    margin:0 auto;
+    background-color:
+     rgba(255, 255, 255, .55);
+}
+/*
+form select{
+}
+*/
+form label{
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+
+form select{
+    display:block;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-rendering:optimizeLegibility;
+/**/
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1074c5;
+    border: solid 2px rgb(2, 2, 36);
+    background-image: 
+        linear-gradient(to right,
+            rgba(2,2,36,.5),
+            rgba(4, 4, 138,.5),
+            rgba(2,2,36,.5)),
+        url("../img/Textura_petit.png");
+    /*Donem amplada màxima*/
+    width: 100%;
+    
+} 
+
+
+form input[type="submit"]{
+    background: 
+        url("../img/button_background2.png")
+        top left repeat-x;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+    border: solid 2px rgb(2, 2, 36);
+    cursor: pointer;
+    cursor:not-allowed;
+} 
+
+form input[type="submit"]:hover:enabled{
+    background: 
+        url("../img/button_background.png")
+        top left repeat-x;
+    cursor:pointer;
+}
+
+form select:hover:enabled{
+    background-image: 
+        linear-gradient(to right,
+            rgba(4, 4, 138,.5),
+            rgba(2,2,36,.5),
+            rgba(4, 4, 138,.5)),
+        url("../img/Textura_petit.png");
+    
+} 
+
+.hidden{
+    visibility: hidden;
+}

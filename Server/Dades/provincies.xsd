@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://cirvianum.cat/ComunitatProv"
+xmlns:cp="http://cirvianum.cat/ComunitatProv"
+elementFormDefault="unqualified">
+    <xs:include schemaLocation="codis.xsd"></xs:include>
+    
+    <xs:element name="provincies" type="cp:provinciesType" />
+
+    <xs:complexType  name="provinciesType">
+        <xs:sequence>
+            <xs:element name="provincia" type="cp:provinciaType" maxOccurs="52">
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="provinciaType">
+        <xs:sequence minOccurs="1">
+            <xs:element name="codi" type="cp:codiProvType" />
+            <xs:element name="nom" type="xs:string" />
+            <xs:element name="illes" type="cp:illesType" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute name="codiCom" type="cp:codiComType" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="illesType">
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="illa" type="cp:illaType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="illaType">
+        <xs:sequence minOccurs="1">
+            <xs:element name="codi" type="cp:codiIllaType" />
+            <xs:element name="nom" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

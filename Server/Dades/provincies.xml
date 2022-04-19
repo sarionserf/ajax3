@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cp:provincies xmlns:cp="http://cirvianum.cat/ComunitatProv"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://cirvianum.cat/ComunitatProv provincies.xsd">
+    <provincia codiCom='16'>
+        <codi>01</codi>
+        <nom>Àlaba</nom>
+    </provincia>
+    <provincia codiCom='08'>
+        <codi>02</codi>
+        <nom>Albacete</nom>
+    </provincia>
+    <provincia codiCom='10'>
+        <codi>03</codi>
+        <nom>Alacant</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>04</codi>
+        <nom>Almeria</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>05</codi>
+        <nom>Àvila</nom>
+    </provincia>
+    <provincia codiCom='11'>
+        <codi>06</codi>
+        <nom>Badajoz</nom>
+    </provincia>
+    <provincia codiCom='04'>
+        <codi>07</codi>
+        <nom>Illes Balears</nom>
+        <illes>
+            <illa>
+                <codi>071</codi>
+                <nom>Formentera</nom>
+            </illa>
+            <illa>
+                <codi>072</codi>
+                <nom>Eivissa</nom>
+            </illa>
+            <illa>
+                <codi>073</codi>
+                <nom>Mallorca</nom>
+            </illa>
+            <illa>
+                <codi>074</codi>
+                <nom>Menorca</nom>
+            </illa>
+        </illes>
+    </provincia>
+    <provincia codiCom='09'>
+        <codi>08</codi>
+        <nom>Barcelona</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>09</codi>
+        <nom>Burgos</nom>
+    </provincia>
+    <provincia codiCom='11'>
+        <codi>10</codi>
+        <nom>Càceres</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>11</codi>
+        <nom>Cadis</nom>
+    </provincia>
+    <provincia codiCom='10'>
+        <codi>12</codi>
+        <nom>Castelló de la Plana</nom>
+    </provincia>
+    <provincia codiCom='08'>
+        <codi>13</codi>
+        <nom>Ciudad Real</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>14</codi>
+        <nom>Còrdova</nom>
+    </provincia>
+    <provincia codiCom='12'>
+        <codi>15</codi>
+        <nom>A Coruña</nom>
+    </provincia>
+    <provincia codiCom='08'>
+        <codi>16</codi>
+        <nom>Conca</nom>
+    </provincia>
+    <provincia codiCom='09'>
+        <codi>17</codi>
+        <nom>Girona</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>18</codi>
+        <nom>Granada</nom>
+    </provincia>
+    <provincia codiCom='08'>
+        <codi>19</codi>
+        <nom>Guadalajara</nom>
+    </provincia>
+    <provincia codiCom='16'>
+        <codi>20</codi>
+        <nom>Guipúscoa</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>21</codi>
+        <nom>Huelva</nom>
+    </provincia>
+    <provincia codiCom='02'>
+        <codi>22</codi>
+        <nom>Osca</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>23</codi>
+        <nom>Jaén</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>24</codi>
+        <nom>Lleó</nom>
+    </provincia>
+    <provincia codiCom='09'>
+        <codi>25</codi>
+        <nom>Lleida</nom>
+    </provincia>
+    <provincia codiCom='17'>
+        <codi>26</codi>
+        <nom>La Rioja</nom>
+    </provincia>
+    <provincia codiCom='12'>
+        <codi>27</codi>
+        <nom>Lugo</nom>
+    </provincia>
+    <provincia codiCom='13'>
+        <codi>28</codi>
+        <nom>Madrid</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>29</codi>
+        <nom>Màlaga</nom>
+    </provincia>
+    <provincia codiCom='14'>
+        <codi>30</codi>
+        <nom>Múrcia</nom>
+    </provincia>
+    <provincia codiCom='15'>
+        <codi>31</codi>
+        <nom>Navarra</nom>
+    </provincia>
+    <provincia codiCom='12'>
+        <codi>32</codi>
+        <nom>Ourense</nom>
+    </provincia>
+    <provincia codiCom='03'>
+        <codi>33</codi>
+        <nom>Astúries</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>34</codi>
+        <nom>Palència</nom>
+    </provincia>
+    <provincia codiCom='05'>
+        <codi>35</codi>
+        <nom>Las Palmas</nom>
+        <illes>
+            <illa>
+                <codi>351</codi>
+                <nom>Fuerteventura</nom>
+            </illa>
+            <illa>
+                <codi>352</codi>
+                <nom>Gran Canària</nom>
+            </illa>
+            <illa>
+                <codi>353</codi>
+                <nom>Lanzarote</nom>
+            </illa>
+        </illes>
+    </provincia>
+    <provincia codiCom='12'>
+        <codi>36</codi>
+        <nom>Pontevedra</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>37</codi>
+        <nom>Salamanca</nom>
+    </provincia>
+    <provincia codiCom='05'>
+        <codi>38</codi>
+        <nom>Santa Cruz de Tenerife</nom>
+        <illes>
+            <illa>
+                <codi>381</codi>
+                <nom>La Gomera</nom>
+            </illa>
+            <illa>
+                <codi>382</codi>
+                <nom>El Hierro</nom>
+            </illa>
+            <illa>
+                <codi>383</codi>
+                <nom>La Palma</nom>
+            </illa>
+            <illa>
+                <codi>384</codi>
+                <nom>Tenerife</nom>
+            </illa>
+        </illes>
+    </provincia>
+    <provincia codiCom='06'>
+        <codi>39</codi>
+        <nom>Cantàbria</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>40</codi>
+        <nom>Segòvia</nom>
+    </provincia>
+    <provincia codiCom='01'>
+        <codi>41</codi>
+        <nom>Sevilla</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>42</codi>
+        <nom>Sòria</nom>
+    </provincia>
+    <provincia codiCom='09'>
+        <codi>43</codi>
+        <nom>Tarragona</nom>
+    </provincia>
+    <provincia codiCom='02'>
+        <codi>44</codi>
+        <nom>Terol</nom>
+    </provincia>
+    <provincia codiCom='08'>
+        <codi>45</codi>
+        <nom>Toledo</nom>
+    </provincia>
+    <provincia codiCom='10'>
+        <codi>46</codi>
+        <nom>València</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>47</codi>
+        <nom>Valladolid</nom>
+    </provincia>
+    <provincia codiCom='16'>
+        <codi>48</codi>
+        <nom>Biscaia</nom>
+    </provincia>
+    <provincia codiCom='07'>
+        <codi>49</codi>
+        <nom>Zamora</nom>
+    </provincia>
+    <provincia codiCom='02'>
+        <codi>50</codi>
+        <nom>Saragossa</nom>
+    </provincia>
+    <provincia codiCom='18'>
+        <codi>51</codi>
+        <nom>Ceuta</nom>
+    </provincia>
+    <provincia codiCom='19'>
+        <codi>52</codi>
+        <nom>Melilla</nom>
+    </provincia>
+</cp:provincies>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Styling</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script type="application/javascript" src="js/AjaxClass.js"></script>
+    <script type="application/javascript" src="js/ajaxPost.js"></script>
+</head>
+<body>
+    <div id="formContainer">
+        <h1>Càrrega intel·ligent de Poblacions</h1>
+        <form>
+            <fieldset>
+                <legend>
+                    <div>
+                        Poblacions!!
+                    </div>
+                </legend>
+                <label for="ca_name">Comunitat Autònoma</label>
+                <select name="ca_name" id="ca_name" >
+                </select>
+
+                <label for="pr_name">Província</label>
+                <select name="pr_name" id="pr_name" disabled>
+                </select>
+    
+                <label for="il_name" class="hidden">Illa</label>
+                <select name="il_name" id="il_name" class="hidden">
+                </select>
+        
+                <label for="mu_name">Municipi</label>
+                <select name="mu_name" id="mu_name" disabled>
+                </select>
+
+                <input type="submit" value="Enviar" >
+
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://cirvianum.cat/ComunitatProv"
+    xmlns:cp="http://cirvianum.cat/ComunitatProv"
+    elementFormDefault="qualified">
+    
+    <xs:simpleType name="codiComType">
+        <xs:restriction base="xs:string" >
+            <xs:pattern value="[0-1][0-9]" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="codiProvType">
+        <xs:restriction base="xs:string" >
+            <xs:pattern value="[0-5][0-9]" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="codiIllaType">
+        <xs:restriction base="xs:string" >
+            <xs:pattern value="((07)|(35)|(38))[1-4]" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="codiMuniType">
+        <xs:restriction base="xs:string" >
+            <xs:pattern value="\d{6}" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

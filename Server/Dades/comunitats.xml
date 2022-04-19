@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cp:comunitatsAutonomes xmlns:cp="http://cirvianum.cat/ComunitatProv"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cirvianum.cat/ComunitatProv comunitats.xsd">
+    <comunitat>
+        <codi>01</codi>
+        <nom>Andalusia</nom>
+    </comunitat>
+    <comunitat>
+        <codi>02</codi>
+        <nom>Aragó</nom>
+    </comunitat>
+    <comunitat>
+        <codi>03</codi>
+        <nom>Principat d'Astúries</nom>
+    </comunitat>
+    <comunitat>
+        <codi>04</codi>
+        <nom>Illes Balears</nom>
+    </comunitat>
+    <comunitat>
+        <codi>05</codi>
+        <nom>Canàries</nom>
+    </comunitat>
+    <comunitat>
+        <codi>06</codi>
+        <nom>Cantàbria</nom>
+    </comunitat>
+    <comunitat>
+        <codi>07</codi>
+        <nom>Castella i Lleó</nom>
+    </comunitat>
+    <comunitat>
+        <codi>08</codi>
+        <nom>Castella - la Manxa</nom>
+    </comunitat>
+    <comunitat>
+        <codi>09</codi>
+        <nom>Catalunya</nom>
+    </comunitat>
+    <comunitat>
+        <codi>10</codi>
+        <nom>Comunitat Valenciana</nom>
+    </comunitat>
+    <comunitat>
+        <codi>11</codi>
+        <nom>Extremadura</nom>
+    </comunitat>
+    <comunitat>
+        <codi>12</codi>
+        <nom>Galícia</nom>
+    </comunitat>
+    <comunitat>
+        <codi>13</codi>
+        <nom>Comunitat de Madrid</nom>
+    </comunitat>
+    <comunitat>
+        <codi>14</codi>
+        <nom>Regió de Múrcia</nom>
+    </comunitat>
+    <comunitat>
+        <codi>15</codi>
+        <nom>Comunitat Foral de Navarra</nom>
+    </comunitat>
+    <comunitat>
+        <codi>16</codi>
+        <nom>País Basc</nom>
+    </comunitat>
+    <comunitat>
+        <codi>17</codi>
+        <nom>La Rioja</nom>
+    </comunitat>
+    <comunitat>
+        <codi>18</codi>
+        <nom>Ceuta</nom>
+    </comunitat>
+    <comunitat>
+        <codi>19</codi>
+        <nom>Melilla</nom>
+    </comunitat>
+</cp:comunitatsAutonomes>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://cirvianum.cat/ComunitatProv"
+xmlns:cp="http://cirvianum.cat/ComunitatProv"
+elementFormDefault="unqualified">
+    <xs:include schemaLocation="codis.xsd"></xs:include>
+
+    <xs:element name="comunitatsAutonomes" type="cp:comunitatsAutonomesType" />
+
+    <xs:complexType  name="comunitatsAutonomesType">
+        <xs:sequence>
+            <xs:element name="comunitat" type="cp:comunitatType" maxOccurs="20">
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="comunitatType">
+        <xs:sequence minOccurs="1">
+            <xs:element name="codi" type="cp:codiComType" />
+            <xs:element name="nom" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
